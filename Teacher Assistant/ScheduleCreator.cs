@@ -187,11 +187,11 @@ namespace Teacher_Assistant
                     break;
 
                 case 5:
-                    time = "12:15";
+                    time = "13:00";
                     break;
 
                 case 6:
-                    time = "13:10";
+                    time = "13:55";
                     break;
             }
 
