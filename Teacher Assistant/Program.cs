@@ -386,8 +386,6 @@ namespace Teacher_Assistant
         {
             chrome.Url = "https://inpsa.schoology.com/apps/login/saml/initial?realm=course&realm_id=" + course_id + "&spentityid=9295f7b9ba9a31af8c09d5442f697eb005452c17d&RelayState=https%3A%2F%2Fbigbluebutton.app.schoology.com%2Fhome%3Frealm%3Dsection%26realm_id%3D" + course_id + "%26app_id%3D191034318%26is_ssl%3D1";
 
-            Thread.Sleep(6000);
-
             HtmlAgilityPack.HtmlDocument document = new HtmlAgilityPack.HtmlDocument();
 
             document.LoadHtml(chrome.PageSource);
@@ -410,6 +408,7 @@ namespace Teacher_Assistant
 
             while (element == null)
             {
+                document.LoadHtml(chrome.PageSource);
                 element = conference.Descendants("a").Where(node => node.HasClass("ng-binding")).FirstOrDefault();
             }
 
