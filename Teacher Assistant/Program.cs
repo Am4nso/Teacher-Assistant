@@ -409,6 +409,7 @@ namespace Teacher_Assistant
             while (element == null)
             {
                 document.LoadHtml(chrome.PageSource);
+                conference = document.DocumentNode.Descendants("tr").Where(node => node.HasClass("conference-row")).FirstOrDefault();
                 element = conference.Descendants("a").Where(node => node.HasClass("ng-binding")).FirstOrDefault();
             }
 

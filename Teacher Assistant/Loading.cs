@@ -22,6 +22,9 @@ namespace Teacher_Assistant
 
         private void Loading_Load(object sender, EventArgs e)
         {
+
+            this.CenterToScreen();
+
             new Thread(async () =>
             {
 

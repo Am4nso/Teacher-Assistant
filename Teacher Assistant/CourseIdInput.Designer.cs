@@ -37,6 +37,7 @@ namespace Teacher_Assistant
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +85,7 @@ namespace Teacher_Assistant
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.Location = new System.Drawing.Point(57, 214);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(288, 220);
+            this.label3.Size = new System.Drawing.Size(416, 220);
             this.label3.TabIndex = 4;
             this.label3.Text = resources.GetString("label3.Text");
             // 
@@ -106,12 +107,23 @@ namespace Teacher_Assistant
             this.label4.TabIndex = 6;
             this.label4.Text = "The course id for this url is 2918326108.";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label5.Location = new System.Drawing.Point(875, 601);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(111, 17);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Made by Osama";
+            // 
             // CourseIdInput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(998, 627);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
@@ -140,5 +152,6 @@ namespace Teacher_Assistant
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }

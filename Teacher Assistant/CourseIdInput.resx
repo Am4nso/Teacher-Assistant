@@ -121,13 +121,13 @@
     <value>Follow these steps to find course id:
 
    1. Log into schoology.
-   2. Find the class you want to get its id.
-   3. Go to the class materials.
-   4. The digits in the url is id. 
+   2. Navigate to the class's materials you want to get its id.
+   4. The digits in the url at the top is the id.
 
 
 
 
-Example:</value>
+
+Example of the URL:</value>
   </data>
 </root>
