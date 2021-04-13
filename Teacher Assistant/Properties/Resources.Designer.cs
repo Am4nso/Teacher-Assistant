@@ -123,9 +123,9 @@ namespace Teacher_Assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Schedule_1 {
+        internal static System.Drawing.Bitmap draft {
             get {
-                object obj = ResourceManager.GetObject("Schedule_1", resourceCulture);
+                object obj = ResourceManager.GetObject("draft", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -29,35 +29,30 @@ namespace Teacher_Assistant
 
             sunday.Add(comboBox1);
             sunday.Add(comboBox2);
-            sunday.Add(comboBox3);
             sunday.Add(comboBox4);
             sunday.Add(comboBox5);
             sunday.Add(comboBox6);
 
             monday.Add(comboBox12);
             monday.Add(comboBox11);
-            monday.Add(comboBox10);
             monday.Add(comboBox9);
             monday.Add(comboBox8);
             monday.Add(comboBox7);
 
             tuesday.Add(comboBox18);
             tuesday.Add(comboBox17);
-            tuesday.Add(comboBox16);
             tuesday.Add(comboBox15);
             tuesday.Add(comboBox14);
             tuesday.Add(comboBox13);
 
             wednesday.Add(comboBox24);
             wednesday.Add(comboBox23);
-            wednesday.Add(comboBox22);
             wednesday.Add(comboBox21);
             wednesday.Add(comboBox20);
             wednesday.Add(comboBox19);
 
             thursday.Add(comboBox30);
             thursday.Add(comboBox29);
-            thursday.Add(comboBox28);
             thursday.Add(comboBox27);
             thursday.Add(comboBox26);
             thursday.Add(comboBox25);
@@ -171,27 +166,23 @@ namespace Teacher_Assistant
             {
 
                 case 1:
-                    time = "8:00";
+                    time = "9:30";
                     break;
 
                 case 2:
-                    time = "8:55";
+                    time = "10:25";
                     break;
 
                 case 3:
-                    time = "10:05";
+                    time = "11:25";
                     break;
 
                 case 4:
-                    time = "11:00";
+                    time = "12:20";
                     break;
 
                 case 5:
-                    time = "13:00";
-                    break;
-
-                case 6:
-                    time = "13:55";
+                    time = "13:15";
                     break;
             }
 

@@ -211,6 +211,7 @@ namespace Teacher_Assistant
                     {
                         label4.Text = "I'm not in a class!";
                         label8.Visible = true;
+                        button1.Enabled = true;
                     }));
                 }
             }).Start();

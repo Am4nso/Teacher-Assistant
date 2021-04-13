@@ -47,11 +47,9 @@ namespace Teacher_Assistant
                 Directory.CreateDirectory(program_path);
             }
 
-            if (!File.Exists(program_path + "chromedriver.exe"))
-            {
-                byte[] bytes = Properties.Resources.chromedriver;
-                File.WriteAllBytes(program_path + "chromedriver.exe", bytes);
-            }
+            byte[] bytes = Properties.Resources.chromedriver;
+            File.WriteAllBytes(program_path + "chromedriver.exe", bytes);
+            
 
             if (File.Exists(program_path + "schedule.json"))
             {

@@ -29,6 +29,7 @@ namespace Teacher_Assistant
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScheduleCreator));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -36,32 +37,27 @@ namespace Teacher_Assistant
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
             this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.comboBox18 = new System.Windows.Forms.ComboBox();
             this.comboBox19 = new System.Windows.Forms.ComboBox();
             this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
             this.comboBox23 = new System.Windows.Forms.ComboBox();
             this.comboBox24 = new System.Windows.Forms.ComboBox();
             this.comboBox25 = new System.Windows.Forms.ComboBox();
             this.comboBox26 = new System.Windows.Forms.ComboBox();
             this.comboBox27 = new System.Windows.Forms.ComboBox();
-            this.comboBox28 = new System.Windows.Forms.ComboBox();
             this.comboBox29 = new System.Windows.Forms.ComboBox();
             this.comboBox30 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -114,7 +110,7 @@ namespace Teacher_Assistant
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Teacher_Assistant.Properties.Resources.Schedule_1;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(283, 144);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(594, 401);
@@ -135,7 +131,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox1.Location = new System.Drawing.Point(347, 209);
+            this.comboBox1.Location = new System.Drawing.Point(357, 209);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(56, 21);
             this.comboBox1.TabIndex = 35;
@@ -154,29 +150,10 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox2.Location = new System.Drawing.Point(413, 209);
+            this.comboBox2.Location = new System.Drawing.Point(444, 209);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(56, 21);
             this.comboBox2.TabIndex = 36;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "9 AB",
-            "9 BB",
-            "9 AG",
-            "9 BG",
-            "10 AB",
-            "10 BG",
-            "11 AB",
-            "11 BG",
-            "12 AB",
-            "12 BG"});
-            this.comboBox3.Location = new System.Drawing.Point(548, 209);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(56, 21);
-            this.comboBox3.TabIndex = 37;
             // 
             // comboBox4
             // 
@@ -211,7 +188,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox5.Location = new System.Drawing.Point(748, 209);
+            this.comboBox5.Location = new System.Drawing.Point(718, 209);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(56, 21);
             this.comboBox5.TabIndex = 39;
@@ -230,7 +207,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox6.Location = new System.Drawing.Point(815, 209);
+            this.comboBox6.Location = new System.Drawing.Point(806, 209);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(56, 21);
             this.comboBox6.TabIndex = 40;
@@ -249,7 +226,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox7.Location = new System.Drawing.Point(815, 284);
+            this.comboBox7.Location = new System.Drawing.Point(806, 284);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(56, 21);
             this.comboBox7.TabIndex = 46;
@@ -268,7 +245,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox8.Location = new System.Drawing.Point(748, 284);
+            this.comboBox8.Location = new System.Drawing.Point(718, 284);
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(56, 21);
             this.comboBox8.TabIndex = 45;
@@ -292,25 +269,6 @@ namespace Teacher_Assistant
             this.comboBox9.Size = new System.Drawing.Size(56, 21);
             this.comboBox9.TabIndex = 44;
             // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "9 AB",
-            "9 BB",
-            "9 AG",
-            "9 BG",
-            "10 AB",
-            "10 BG",
-            "11 AB",
-            "11 BG",
-            "12 AB",
-            "12 BG"});
-            this.comboBox10.Location = new System.Drawing.Point(548, 284);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(56, 21);
-            this.comboBox10.TabIndex = 43;
-            // 
             // comboBox11
             // 
             this.comboBox11.FormattingEnabled = true;
@@ -325,7 +283,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox11.Location = new System.Drawing.Point(413, 284);
+            this.comboBox11.Location = new System.Drawing.Point(444, 284);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(56, 21);
             this.comboBox11.TabIndex = 42;
@@ -344,7 +302,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox12.Location = new System.Drawing.Point(347, 284);
+            this.comboBox12.Location = new System.Drawing.Point(357, 284);
             this.comboBox12.Name = "comboBox12";
             this.comboBox12.Size = new System.Drawing.Size(56, 21);
             this.comboBox12.TabIndex = 41;
@@ -363,7 +321,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox13.Location = new System.Drawing.Point(815, 356);
+            this.comboBox13.Location = new System.Drawing.Point(806, 356);
             this.comboBox13.Name = "comboBox13";
             this.comboBox13.Size = new System.Drawing.Size(56, 21);
             this.comboBox13.TabIndex = 52;
@@ -382,7 +340,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox14.Location = new System.Drawing.Point(748, 356);
+            this.comboBox14.Location = new System.Drawing.Point(718, 356);
             this.comboBox14.Name = "comboBox14";
             this.comboBox14.Size = new System.Drawing.Size(56, 21);
             this.comboBox14.TabIndex = 51;
@@ -406,25 +364,6 @@ namespace Teacher_Assistant
             this.comboBox15.Size = new System.Drawing.Size(56, 21);
             this.comboBox15.TabIndex = 50;
             // 
-            // comboBox16
-            // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
-            "9 AB",
-            "9 BB",
-            "9 AG",
-            "9 BG",
-            "10 AB",
-            "10 BG",
-            "11 AB",
-            "11 BG",
-            "12 AB",
-            "12 BG"});
-            this.comboBox16.Location = new System.Drawing.Point(548, 356);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(56, 21);
-            this.comboBox16.TabIndex = 49;
-            // 
             // comboBox17
             // 
             this.comboBox17.FormattingEnabled = true;
@@ -439,7 +378,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox17.Location = new System.Drawing.Point(413, 356);
+            this.comboBox17.Location = new System.Drawing.Point(444, 356);
             this.comboBox17.Name = "comboBox17";
             this.comboBox17.Size = new System.Drawing.Size(56, 21);
             this.comboBox17.TabIndex = 48;
@@ -458,7 +397,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox18.Location = new System.Drawing.Point(347, 356);
+            this.comboBox18.Location = new System.Drawing.Point(357, 356);
             this.comboBox18.Name = "comboBox18";
             this.comboBox18.Size = new System.Drawing.Size(56, 21);
             this.comboBox18.TabIndex = 47;
@@ -477,7 +416,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox19.Location = new System.Drawing.Point(815, 426);
+            this.comboBox19.Location = new System.Drawing.Point(806, 426);
             this.comboBox19.Name = "comboBox19";
             this.comboBox19.Size = new System.Drawing.Size(56, 21);
             this.comboBox19.TabIndex = 58;
@@ -496,7 +435,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox20.Location = new System.Drawing.Point(748, 426);
+            this.comboBox20.Location = new System.Drawing.Point(718, 426);
             this.comboBox20.Name = "comboBox20";
             this.comboBox20.Size = new System.Drawing.Size(56, 21);
             this.comboBox20.TabIndex = 57;
@@ -520,25 +459,6 @@ namespace Teacher_Assistant
             this.comboBox21.Size = new System.Drawing.Size(56, 21);
             this.comboBox21.TabIndex = 56;
             // 
-            // comboBox22
-            // 
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Items.AddRange(new object[] {
-            "9 AB",
-            "9 BB",
-            "9 AG",
-            "9 BG",
-            "10 AB",
-            "10 BG",
-            "11 AB",
-            "11 BG",
-            "12 AB",
-            "12 BG"});
-            this.comboBox22.Location = new System.Drawing.Point(548, 426);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(56, 21);
-            this.comboBox22.TabIndex = 55;
-            // 
             // comboBox23
             // 
             this.comboBox23.FormattingEnabled = true;
@@ -553,7 +473,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox23.Location = new System.Drawing.Point(413, 426);
+            this.comboBox23.Location = new System.Drawing.Point(444, 426);
             this.comboBox23.Name = "comboBox23";
             this.comboBox23.Size = new System.Drawing.Size(56, 21);
             this.comboBox23.TabIndex = 54;
@@ -572,7 +492,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox24.Location = new System.Drawing.Point(347, 426);
+            this.comboBox24.Location = new System.Drawing.Point(357, 426);
             this.comboBox24.Name = "comboBox24";
             this.comboBox24.Size = new System.Drawing.Size(56, 21);
             this.comboBox24.TabIndex = 53;
@@ -591,7 +511,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox25.Location = new System.Drawing.Point(815, 500);
+            this.comboBox25.Location = new System.Drawing.Point(806, 500);
             this.comboBox25.Name = "comboBox25";
             this.comboBox25.Size = new System.Drawing.Size(56, 21);
             this.comboBox25.TabIndex = 64;
@@ -610,7 +530,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox26.Location = new System.Drawing.Point(748, 500);
+            this.comboBox26.Location = new System.Drawing.Point(718, 500);
             this.comboBox26.Name = "comboBox26";
             this.comboBox26.Size = new System.Drawing.Size(56, 21);
             this.comboBox26.TabIndex = 63;
@@ -634,25 +554,6 @@ namespace Teacher_Assistant
             this.comboBox27.Size = new System.Drawing.Size(56, 21);
             this.comboBox27.TabIndex = 62;
             // 
-            // comboBox28
-            // 
-            this.comboBox28.FormattingEnabled = true;
-            this.comboBox28.Items.AddRange(new object[] {
-            "9 AB",
-            "9 BB",
-            "9 AG",
-            "9 BG",
-            "10 AB",
-            "10 BG",
-            "11 AB",
-            "11 BG",
-            "12 AB",
-            "12 BG"});
-            this.comboBox28.Location = new System.Drawing.Point(548, 500);
-            this.comboBox28.Name = "comboBox28";
-            this.comboBox28.Size = new System.Drawing.Size(56, 21);
-            this.comboBox28.TabIndex = 61;
-            // 
             // comboBox29
             // 
             this.comboBox29.FormattingEnabled = true;
@@ -667,7 +568,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox29.Location = new System.Drawing.Point(413, 500);
+            this.comboBox29.Location = new System.Drawing.Point(444, 500);
             this.comboBox29.Name = "comboBox29";
             this.comboBox29.Size = new System.Drawing.Size(56, 21);
             this.comboBox29.TabIndex = 60;
@@ -686,7 +587,7 @@ namespace Teacher_Assistant
             "11 BG",
             "12 AB",
             "12 BG"});
-            this.comboBox30.Location = new System.Drawing.Point(347, 500);
+            this.comboBox30.Location = new System.Drawing.Point(357, 500);
             this.comboBox30.Name = "comboBox30";
             this.comboBox30.Size = new System.Drawing.Size(56, 21);
             this.comboBox30.TabIndex = 59;
@@ -700,31 +601,26 @@ namespace Teacher_Assistant
             this.Controls.Add(this.comboBox25);
             this.Controls.Add(this.comboBox26);
             this.Controls.Add(this.comboBox27);
-            this.Controls.Add(this.comboBox28);
             this.Controls.Add(this.comboBox29);
             this.Controls.Add(this.comboBox30);
             this.Controls.Add(this.comboBox19);
             this.Controls.Add(this.comboBox20);
             this.Controls.Add(this.comboBox21);
-            this.Controls.Add(this.comboBox22);
             this.Controls.Add(this.comboBox23);
             this.Controls.Add(this.comboBox24);
             this.Controls.Add(this.comboBox13);
             this.Controls.Add(this.comboBox14);
             this.Controls.Add(this.comboBox15);
-            this.Controls.Add(this.comboBox16);
             this.Controls.Add(this.comboBox17);
             this.Controls.Add(this.comboBox18);
             this.Controls.Add(this.comboBox7);
             this.Controls.Add(this.comboBox8);
             this.Controls.Add(this.comboBox9);
-            this.Controls.Add(this.comboBox10);
             this.Controls.Add(this.comboBox11);
             this.Controls.Add(this.comboBox12);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
@@ -753,32 +649,27 @@ namespace Teacher_Assistant
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.ComboBox comboBox7;
         private System.Windows.Forms.ComboBox comboBox8;
         private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
         private System.Windows.Forms.ComboBox comboBox11;
         private System.Windows.Forms.ComboBox comboBox12;
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.ComboBox comboBox14;
         private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox16;
         private System.Windows.Forms.ComboBox comboBox17;
         private System.Windows.Forms.ComboBox comboBox18;
         private System.Windows.Forms.ComboBox comboBox19;
         private System.Windows.Forms.ComboBox comboBox20;
         private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.ComboBox comboBox22;
         private System.Windows.Forms.ComboBox comboBox23;
         private System.Windows.Forms.ComboBox comboBox24;
         private System.Windows.Forms.ComboBox comboBox25;
         private System.Windows.Forms.ComboBox comboBox26;
         private System.Windows.Forms.ComboBox comboBox27;
-        private System.Windows.Forms.ComboBox comboBox28;
         private System.Windows.Forms.ComboBox comboBox29;
         private System.Windows.Forms.ComboBox comboBox30;
     }
